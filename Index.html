@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan's Digital Portfolio</title>
+    <link rel="stylesheet" href="/Style.css">
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="sky" aria-hidden="true">
+        <canvas id="stars"></canvas>
+        <div class="planet" id="planet">
+        </div>
+    </div>
+
+    <main>
+        <!--Welcome screen-->
+        <header class="hero">
+            <h1 class="hero-title" id="hero-title" aria-label="Hey, I'm Rohan. Computer Science Student">
+                <span class="line"><noscript>Hey, I'm <span class="accent">Rohan</span></noscript></span>
+                <span class="line"><noscript>Computer Science Student</noscript></span>
+            </h1>
+            <div class="hero-bottom">
+                <div>
+                    <nav class="icon-row" aria-label="Quick links">
+
+                        <!-- Folder button -->
+                        <button type="button" class="icon-btn folder-btn" id="folder-btn" aria-expanded="false"
+                            aria-controls="folder-items">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" />
+                            </svg>
+                            <span>Open Me!!!!!</span>
+                        </button>
+
+                        <div class="folder-items" id="folder-items" hidden>
+
+                            <a href="/Units/Unit1.html" style="text-decoration: none; color: inherit;">
+                                <button type="button" class="icon-btn">
+                                    <span>Unit 1</span>
+                                    <span class="tip" role="tooltip">
+                                        <!-- <img src="https://static.vecteezy.com/system/resources/thumbnails/038/038/557/original/virtual-world-journey-4k-cg-animation-video.jpg" alt=""> !-->
+                                            <span class="tip-text">Unit 1: Online World</span>
+                                    </a>     
+                                </span>
+                            </button>
+
+                            <button type="button" class="icon-btn">
+                                <span>Unit 2</span>
+                                <span class="tip" role="tooltip">
+                                    <span class="tip-text">Unit 2: Technology systems</span>
+                                </span>
+                            </button>
+
+                            <button type="button" class="icon-btn">
+                                <span>Unit 6</span>
+                                <span class="tip" role="tooltip">
+                                    <span class="tip-text">Unit 6: Graphic Design</span>
+                                </span>
+                            </button>
+
+                            <button type="button" class="icon-btn">
+                                <span>Unit 9</span>
+                                <span class="tip" role="tooltip">
+                                    <span class="tip-text">Unit 9: Spreadsheet Development</span>
+                                </span>
+                            </button>
+
+                            <button type="button" class="icon-btn">
+                                <span>Unit 12</span>
+                                <span class="tip" role="tooltip">
+                                    <span class="tip-text">Unit 12: Software Development</span>
+                                </span>
+                            </button>
+
+                            <button type="button" class="icon-btn">
+                                <span>Unit 25</span>
+                                <span class="tip" role="tooltip">
+                                    <span class="tip-text">Unit 25: Work Experience</span>
+                                </span>
+                            </button>
+
+                        </div>
+                    </nav>
+
+                    <p class="hero-name">Rohan Benton</p>
+                    <p class="hero-sub">Farnborough College of Technology.</p>
+                </div>
+
+                <a class="scroll-cue" href="AboutMe.html">About me!!!</a>
+            </div>
+        </header>
+    </main>
+
+</body>
+
+</html>
